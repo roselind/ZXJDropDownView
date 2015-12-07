@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA8324B11C155A7600288035 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324B01C155A7600288035 /* main.m */; };
+		DA8324B41C155A7600288035 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324B31C155A7600288035 /* AppDelegate.m */; };
+		DA8324B71C155A7600288035 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324B61C155A7600288035 /* ViewController.m */; };
+		DA8324BA1C155A7600288035 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8324B81C155A7600288035 /* Main.storyboard */; };
+		DA8324BC1C155A7600288035 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA8324BB1C155A7600288035 /* Assets.xcassets */; };
+		DA8324BF1C155A7600288035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8324BD1C155A7600288035 /* LaunchScreen.storyboard */; };
+		DA8324CA1C155A7600288035 /* ZXJDropDownViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324C91C155A7600288035 /* ZXJDropDownViewDemoTests.m */; };
+		DA8324D51C155A7600288035 /* ZXJDropDownViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324D41C155A7600288035 /* ZXJDropDownViewDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA8324C61C155A7600288035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8324A41C155A7600288035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8324AB1C155A7600288035;
+			remoteInfo = ZXJDropDownViewDemo;
+		};
+		DA8324D11C155A7600288035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA8324A41C155A7600288035 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA8324AB1C155A7600288035;
+			remoteInfo = ZXJDropDownViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA8324AC1C155A7600288035 /* ZXJDropDownViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXJDropDownViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8324B01C155A7600288035 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA8324B21C155A7600288035 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA8324B31C155A7600288035 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA8324B51C155A7600288035 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DA8324B61C155A7600288035 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DA8324B91C155A7600288035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA8324BB1C155A7600288035 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA8324BE1C155A7600288035 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA8324C01C155A7600288035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8324C51C155A7600288035 /* ZXJDropDownViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXJDropDownViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8324C91C155A7600288035 /* ZXJDropDownViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXJDropDownViewDemoTests.m; sourceTree = "<group>"; };
+		DA8324CB1C155A7600288035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8324D01C155A7600288035 /* ZXJDropDownViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXJDropDownViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA8324D41C155A7600288035 /* ZXJDropDownViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXJDropDownViewDemoUITests.m; sourceTree = "<group>"; };
+		DA8324D61C155A7600288035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA8324A91C155A7600288035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8324C21C155A7600288035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8324CD1C155A7600288035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA8324A31C155A7600288035 = {
+			isa = PBXGroup;
+			children = (
+				DA8324AE1C155A7600288035 /* ZXJDropDownViewDemo */,
+				DA8324C81C155A7600288035 /* ZXJDropDownViewDemoTests */,
+				DA8324D31C155A7600288035 /* ZXJDropDownViewDemoUITests */,
+				DA8324AD1C155A7600288035 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8324AD1C155A7600288035 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA8324AC1C155A7600288035 /* ZXJDropDownViewDemo.app */,
+				DA8324C51C155A7600288035 /* ZXJDropDownViewDemoTests.xctest */,
+				DA8324D01C155A7600288035 /* ZXJDropDownViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA8324AE1C155A7600288035 /* ZXJDropDownViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DA8324B21C155A7600288035 /* AppDelegate.h */,
+				DA8324B31C155A7600288035 /* AppDelegate.m */,
+				DA8324B51C155A7600288035 /* ViewController.h */,
+				DA8324B61C155A7600288035 /* ViewController.m */,
+				DA8324B81C155A7600288035 /* Main.storyboard */,
+				DA8324BB1C155A7600288035 /* Assets.xcassets */,
+				DA8324BD1C155A7600288035 /* LaunchScreen.storyboard */,
+				DA8324C01C155A7600288035 /* Info.plist */,
+				DA8324AF1C155A7600288035 /* Supporting Files */,
+			);
+			path = ZXJDropDownViewDemo;
+			sourceTree = "<group>";
+		};
+		DA8324AF1C155A7600288035 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA8324B01C155A7600288035 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA8324C81C155A7600288035 /* ZXJDropDownViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA8324C91C155A7600288035 /* ZXJDropDownViewDemoTests.m */,
+				DA8324CB1C155A7600288035 /* Info.plist */,
+			);
+			path = ZXJDropDownViewDemoTests;
+			sourceTree = "<group>";
+		};
+		DA8324D31C155A7600288035 /* ZXJDropDownViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA8324D41C155A7600288035 /* ZXJDropDownViewDemoUITests.m */,
+				DA8324D61C155A7600288035 /* Info.plist */,
+			);
+			path = ZXJDropDownViewDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA8324AB1C155A7600288035 /* ZXJDropDownViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8324D91C155A7600288035 /* Build configuration list for PBXNativeTarget "ZXJDropDownViewDemo" */;
+			buildPhases = (
+				DA8324A81C155A7600288035 /* Sources */,
+				DA8324A91C155A7600288035 /* Frameworks */,
+				DA8324AA1C155A7600288035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXJDropDownViewDemo;
+			productName = ZXJDropDownViewDemo;
+			productReference = DA8324AC1C155A7600288035 /* ZXJDropDownViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA8324C41C155A7600288035 /* ZXJDropDownViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8324DC1C155A7600288035 /* Build configuration list for PBXNativeTarget "ZXJDropDownViewDemoTests" */;
+			buildPhases = (
+				DA8324C11C155A7600288035 /* Sources */,
+				DA8324C21C155A7600288035 /* Frameworks */,
+				DA8324C31C155A7600288035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA8324C71C155A7600288035 /* PBXTargetDependency */,
+			);
+			name = ZXJDropDownViewDemoTests;
+			productName = ZXJDropDownViewDemoTests;
+			productReference = DA8324C51C155A7600288035 /* ZXJDropDownViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA8324CF1C155A7600288035 /* ZXJDropDownViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA8324DF1C155A7600288035 /* Build configuration list for PBXNativeTarget "ZXJDropDownViewDemoUITests" */;
+			buildPhases = (
+				DA8324CC1C155A7600288035 /* Sources */,
+				DA8324CD1C155A7600288035 /* Frameworks */,
+				DA8324CE1C155A7600288035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA8324D21C155A7600288035 /* PBXTargetDependency */,
+			);
+			name = ZXJDropDownViewDemoUITests;
+			productName = ZXJDropDownViewDemoUITests;
+			productReference = DA8324D01C155A7600288035 /* ZXJDropDownViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA8324A41C155A7600288035 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "张小静";
+				TargetAttributes = {
+					DA8324AB1C155A7600288035 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DA8324C41C155A7600288035 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA8324AB1C155A7600288035;
+					};
+					DA8324CF1C155A7600288035 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DA8324AB1C155A7600288035;
+					};
+				};
+			};
+			buildConfigurationList = DA8324A71C155A7600288035 /* Build configuration list for PBXProject "ZXJDropDownViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA8324A31C155A7600288035;
+			productRefGroup = DA8324AD1C155A7600288035 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA8324AB1C155A7600288035 /* ZXJDropDownViewDemo */,
+				DA8324C41C155A7600288035 /* ZXJDropDownViewDemoTests */,
+				DA8324CF1C155A7600288035 /* ZXJDropDownViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA8324AA1C155A7600288035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8324BF1C155A7600288035 /* LaunchScreen.storyboard in Resources */,
+				DA8324BC1C155A7600288035 /* Assets.xcassets in Resources */,
+				DA8324BA1C155A7600288035 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8324C31C155A7600288035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8324CE1C155A7600288035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA8324A81C155A7600288035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8324B71C155A7600288035 /* ViewController.m in Sources */,
+				DA8324B41C155A7600288035 /* AppDelegate.m in Sources */,
+				DA8324B11C155A7600288035 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8324C11C155A7600288035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8324CA1C155A7600288035 /* ZXJDropDownViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA8324CC1C155A7600288035 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA8324D51C155A7600288035 /* ZXJDropDownViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA8324C71C155A7600288035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8324AB1C155A7600288035 /* ZXJDropDownViewDemo */;
+			targetProxy = DA8324C61C155A7600288035 /* PBXContainerItemProxy */;
+		};
+		DA8324D21C155A7600288035 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA8324AB1C155A7600288035 /* ZXJDropDownViewDemo */;
+			targetProxy = DA8324D11C155A7600288035 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA8324B81C155A7600288035 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8324B91C155A7600288035 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA8324BD1C155A7600288035 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA8324BE1C155A7600288035 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA8324D71C155A7600288035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA8324D81C155A7600288035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA8324DA1C155A7600288035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXJDropDownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.ZXJDropDownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA8324DB1C155A7600288035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXJDropDownViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.ZXJDropDownViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA8324DD1C155A7600288035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXJDropDownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.ZXJDropDownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXJDropDownViewDemo.app/ZXJDropDownViewDemo";
+			};
+			name = Debug;
+		};
+		DA8324DE1C155A7600288035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXJDropDownViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.ZXJDropDownViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXJDropDownViewDemo.app/ZXJDropDownViewDemo";
+			};
+			name = Release;
+		};
+		DA8324E01C155A7600288035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXJDropDownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.ZXJDropDownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXJDropDownViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DA8324E11C155A7600288035 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXJDropDownViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhangxiaojing.ZXJDropDownViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXJDropDownViewDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA8324A71C155A7600288035 /* Build configuration list for PBXProject "ZXJDropDownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8324D71C155A7600288035 /* Debug */,
+				DA8324D81C155A7600288035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA8324D91C155A7600288035 /* Build configuration list for PBXNativeTarget "ZXJDropDownViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8324DA1C155A7600288035 /* Debug */,
+				DA8324DB1C155A7600288035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA8324DC1C155A7600288035 /* Build configuration list for PBXNativeTarget "ZXJDropDownViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8324DD1C155A7600288035 /* Debug */,
+				DA8324DE1C155A7600288035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA8324DF1C155A7600288035 /* Build configuration list for PBXNativeTarget "ZXJDropDownViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA8324E01C155A7600288035 /* Debug */,
+				DA8324E11C155A7600288035 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA8324A41C155A7600288035 /* Project object */;
+}
