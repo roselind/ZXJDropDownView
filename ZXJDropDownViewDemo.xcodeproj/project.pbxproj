@@ -15,6 +15,10 @@
 		DA8324BF1C155A7600288035 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA8324BD1C155A7600288035 /* LaunchScreen.storyboard */; };
 		DA8324CA1C155A7600288035 /* ZXJDropDownViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324C91C155A7600288035 /* ZXJDropDownViewDemoTests.m */; };
 		DA8324D51C155A7600288035 /* ZXJDropDownViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324D41C155A7600288035 /* ZXJDropDownViewDemoUITests.m */; };
+		DA8324FC1C1590E800288035 /* ZXJDropDownCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324F61C1590E800288035 /* ZXJDropDownCell.m */; };
+		DA8324FD1C1590E800288035 /* ZXJDropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA8324F71C1590E800288035 /* ZXJDropDownCell.xib */; };
+		DA8324FE1C1590E800288035 /* ZXJDropDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324F91C1590E800288035 /* ZXJDropDownView.m */; };
+		DA8324FF1C1590E800288035 /* ZXJTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8324FB1C1590E800288035 /* ZXJTitleButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		DA8324D01C155A7600288035 /* ZXJDropDownViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXJDropDownViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8324D41C155A7600288035 /* ZXJDropDownViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZXJDropDownViewDemoUITests.m; sourceTree = "<group>"; };
 		DA8324D61C155A7600288035 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8324F51C1590E800288035 /* ZXJDropDownCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJDropDownCell.h; sourceTree = "<group>"; };
+		DA8324F61C1590E800288035 /* ZXJDropDownCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJDropDownCell.m; sourceTree = "<group>"; };
+		DA8324F71C1590E800288035 /* ZXJDropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZXJDropDownCell.xib; sourceTree = "<group>"; };
+		DA8324F81C1590E800288035 /* ZXJDropDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJDropDownView.h; sourceTree = "<group>"; };
+		DA8324F91C1590E800288035 /* ZXJDropDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJDropDownView.m; sourceTree = "<group>"; };
+		DA8324FA1C1590E800288035 /* ZXJTitleButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXJTitleButton.h; sourceTree = "<group>"; };
+		DA8324FB1C1590E800288035 /* ZXJTitleButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXJTitleButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,7 @@
 		DA8324AE1C155A7600288035 /* ZXJDropDownViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				DA8324F41C1590E800288035 /* ZXJDropDownView */,
 				DA8324B21C155A7600288035 /* AppDelegate.h */,
 				DA8324B31C155A7600288035 /* AppDelegate.m */,
 				DA8324B51C155A7600288035 /* ViewController.h */,
@@ -138,6 +150,20 @@
 				DA8324D61C155A7600288035 /* Info.plist */,
 			);
 			path = ZXJDropDownViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		DA8324F41C1590E800288035 /* ZXJDropDownView */ = {
+			isa = PBXGroup;
+			children = (
+				DA8324F51C1590E800288035 /* ZXJDropDownCell.h */,
+				DA8324F61C1590E800288035 /* ZXJDropDownCell.m */,
+				DA8324F71C1590E800288035 /* ZXJDropDownCell.xib */,
+				DA8324F81C1590E800288035 /* ZXJDropDownView.h */,
+				DA8324F91C1590E800288035 /* ZXJDropDownView.m */,
+				DA8324FA1C1590E800288035 /* ZXJTitleButton.h */,
+				DA8324FB1C1590E800288035 /* ZXJTitleButton.m */,
+			);
+			path = ZXJDropDownView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -244,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8324BF1C155A7600288035 /* LaunchScreen.storyboard in Resources */,
+				DA8324FD1C1590E800288035 /* ZXJDropDownCell.xib in Resources */,
 				DA8324BC1C155A7600288035 /* Assets.xcassets in Resources */,
 				DA8324BA1C155A7600288035 /* Main.storyboard in Resources */,
 			);
@@ -271,6 +298,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA8324B71C155A7600288035 /* ViewController.m in Sources */,
+				DA8324FC1C1590E800288035 /* ZXJDropDownCell.m in Sources */,
+				DA8324FE1C1590E800288035 /* ZXJDropDownView.m in Sources */,
+				DA8324FF1C1590E800288035 /* ZXJTitleButton.m in Sources */,
 				DA8324B41C155A7600288035 /* AppDelegate.m in Sources */,
 				DA8324B11C155A7600288035 /* main.m in Sources */,
 			);
